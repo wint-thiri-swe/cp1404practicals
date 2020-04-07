@@ -1,20 +1,32 @@
+
 """
 CP1404/CP5632 - Practical
 Broken program to determine score status
-"""
 
+Github link :
+"""
+import random
 
 
 def main():
     score = float(input("Enter score: "))
+    final_score = check_score(score)
+    print(final_score)
+    print("Printing random score result...")
+    score = random.randint(0, 120)  # random score
+    random_score = check_score(score)
+    print(random_score)
+
+
+def check_score(score):
     if score < 0 or score > 100:
-        print("Invalid Score")
+        return "Invalid Score"
     elif score >= 90:
-        print("Excellent")
+        return "Excellent"
     elif score >= 50:
-        print("Pass")
+        return "Pass"
     else:
-        print("Bad")
+        return "Bad"
 
 
 if __name__ == "__main__":
