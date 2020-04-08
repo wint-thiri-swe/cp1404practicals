@@ -1,10 +1,13 @@
 
 """
+Github link : https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac03/broken_score.py
+
 CP1404/CP5632 - Practical
 Broken program to determine score status
 
-Github link : https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac03/broken_score.py
 """
+
+
 import random
 
 
