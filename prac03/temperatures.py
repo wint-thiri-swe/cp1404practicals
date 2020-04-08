@@ -2,7 +2,7 @@
 CP1404/CP5632 - Practical
 Pseudocode for temperature conversion
 
-Github link :
+Github link : https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac03/temperatures.py
 """
 
 MENU = """C - Convert Celsius to Fahrenheit
