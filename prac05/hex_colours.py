@@ -1,4 +1,6 @@
 """
+Github link: https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac05/hex_colours.py
+
 CP1404/CP5632 Practical
 Look up hexadecimal color codes
 """

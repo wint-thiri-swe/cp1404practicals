@@ -1,4 +1,6 @@
 """
+Github link: https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac05/emails.py
+
 CP1404/CP5632 Practical
 Emails and names in a dictionary
 File needs reformatting
