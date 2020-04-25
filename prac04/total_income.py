@@ -1,4 +1,6 @@
 """
+Github link : https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac04/total_income.py
+
 CP1404/CP5632 Practical
 Starter code for cumulative total income program
 """
@@ -8,6 +10,7 @@ def main():
     """Display income report for incomes over a given number of months."""
     incomes = []
     number_of_months = int(input("How many months? "))  # this variable stores number of months
+
     for month in range(1, number_of_months + 1):
         income = float(input("Enter income for month {}: ".format(month)))
         incomes.append(income)
@@ -25,5 +28,4 @@ def print_report(incomes, number_of_months):
         print("Month {:2} - Income: ${:10.2f} Total: ${:10.2f}".format(month, income, total))
 
 
-if __name__ == '__main__':
-    main()
+main()

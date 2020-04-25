@@ -1,4 +1,6 @@
 """
+Github link : https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac04/quick_picks.py
+
 CP 1404 Practical
 "Quick Pick" Lottery Ticket Generator
 """
@@ -13,7 +15,7 @@ while number_of_lines < 0:
     print("Invalid number of quick picks")
     number_of_lines = int(input("How many quick picks? "))
 
-# for loop to print random
+# for loop to create 6 random numbers of lines based on user input
 for i in range(number_of_lines):
     quick_pick = []
     for j in range(NUMBER_PER_LINE):
