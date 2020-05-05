@@ -1,4 +1,7 @@
-"""CP1404/CP5632 Practical - Car class example."""
+"""CP1404/CP5632 Practical - Car class example.
+
+Github link: https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac06/car.py
+"""
 
 
 class Car:

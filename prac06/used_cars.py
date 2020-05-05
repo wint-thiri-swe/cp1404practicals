@@ -1,5 +1,7 @@
-"""CP1404/CP5632 Practical - Client code to use the Car class."""
-# Note that the import has a folder (module) in it.
+"""CP1404/CP5632 Practical - Client code to use the Car class.
+
+Github link: https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac06/used_cars.py
+"""
 
 from prac06.car import Car
 

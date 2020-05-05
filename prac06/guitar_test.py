@@ -1,3 +1,7 @@
+"""
+Github link: https://github.com/wint-thiri-swe/cp1404practicals/blob/master/prac06/guitar_test.py
+"""
+
 from prac06.guitar import Guitar
 
 
