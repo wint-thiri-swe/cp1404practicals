@@ -38,7 +38,20 @@ def main():
 
 def get_fixed_filename(filename):
     """Return a 'fixed' version of filename."""
-    new_name = filename.replace(" ", "_").replace(".TXT", ".txt")
+    filename = filename.replace(" ", '_').replace(".TXT", '.txt')
+    new_name = ""
+    for current_index, current_character in enumerate(filename):
+        previous_character = filename[current_index - 1]
+
+        if previous_character == '_' and current_character.isalnum():
+            current_character = current_character.upper()
+        new_name = new_name + current_character
+
+        if current_index < len(filename) - 1:
+            next_character = filename[current_index + 1]
+
+            if current_character.isalnum() and (next_character.isupper() or next_character.isdigit()):
+                new_name += '_'
     return new_name
 
 
@@ -59,5 +72,5 @@ def demo_walk():
             os.rename(fullname, new_name)
 
 
-# main()
-demo_walk()
+main()
+# demo_walk()
